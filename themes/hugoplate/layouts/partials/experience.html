@@ -1,0 +1,13 @@
+<section id="work-experience" class="section px-4 md:px-10">
+  <div class="container max-w-3xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="h3 font-bold">Work Experience</h2>
+    </div>
+
+    <div class="flex flex-col gap-8">
+      {{ range .Site.Data.experience.experiences }}
+      {{ partial "components/work-experience-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>

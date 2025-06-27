@@ -1,9 +1,15 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hey, I am Yuvaraj S!"
 meta_title: "About"
-description: "this is meta description"
+description: "This page tells about me and my work."
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+# Software Engineer III @ Guidewire 
+## April 2025 - Present
+Developed and managed an enterprise grade solution (Kubernetes as a Service) for Shell using EKS and AKS which involves key features like backup and recovery, autoscaling, monitoring, security, networking and storage.
+Built Golden Images for Windows and Linux using packer to provide compliant images right out of the box for the platform users.
+Designed and implemented a Cloud Agnostic backup solution for Kubernetes that involves automated backup and restore, disaster recovery and reporting.
+Built complex workflows using GitHub Actions for deploying cloud infrastructures and Kubernetes objects and thereby reducing the manual efforts and time by 80%.
+

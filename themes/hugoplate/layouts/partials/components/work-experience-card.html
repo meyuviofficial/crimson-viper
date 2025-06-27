@@ -1,0 +1,30 @@
+<div class="bg-light dark:bg-darkmode-light rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+<!-- Header Section -->
+  <div class="flex justify-between items-start mb-4">
+    <div>
+      <h4 class="text-xl font-bold text-dark dark:text-white mb-1">
+        {{ .company }}, {{ .location }}
+      </h4>
+      <p class="text-sm text-muted dark:text-muted-light">{{ .title }}</p>
+    </div>
+    <span class="text-sm text-muted dark:text-muted-light whitespace-nowrap">
+      {{ .date }}
+    </span>
+  </div>
+
+  <!-- Bullet Points -->
+  <ul class="list-disc list-inside text-muted dark:text-muted-light mb-4 space-y-1 pl-1">
+    {{ range .points }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+
+  <!-- Skills -->
+  <div class="flex flex-wrap gap-2">
+    {{ range .skills }}
+    <span class="text-xs font-medium px-3 py-1 rounded-full border border-gray-400 dark:border-gray-600 text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800">
+        {{ . }}
+      </span>
+    {{ end }}
+  </div>
+</div>
