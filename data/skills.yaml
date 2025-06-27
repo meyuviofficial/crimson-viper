@@ -1,0 +1,28 @@
+skills:
+  - name: Kubernetes
+    logo: https://cdn.simpleicons.org/kubernetes/326ce5
+  - name: GitHub Actions
+    logo: https://cdn.simpleicons.org/githubactions/2088FF
+  - name: Terraform
+    logo: https://cdn.simpleicons.org/terraform/844FBA
+  - name: Docker
+    logo: https://cdn.simpleicons.org/docker/2496ED
+  - name: Prometheus
+    logo: https://cdn.simpleicons.org/prometheus/E6522C
+  - name: ArgoCD
+    logo: https://cdn.simpleicons.org/argo/EF7B4D
+  - name: Go
+    logo: https://cdn.simpleicons.org/go/00ADD8
+  - name: Python
+    logo: https://cdn.simpleicons.org/python/3776AB
+  - name: Bash
+    logo: https://cdn.simpleicons.org/gnu/bash/4EAA25
+  - name: Helm
+    logo: https://cdn.simpleicons.org/helm/0F1689
+  - name: Ansible
+    logo: https://cdn.simpleicons.org/ansible/EE0000
+  - name: FluxCD
+    logo: https://cdn.simpleicons.org/flux/007ACC
+  - name: Packer
+    logo: https://cdn.simpleicons.org/packer/0D0D0D
+
