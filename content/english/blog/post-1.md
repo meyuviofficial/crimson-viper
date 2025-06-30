@@ -3,7 +3,7 @@ title: "How to handle Multi-Cluster setup for AKS in your local machine"
 meta_title: "How to handle Multi-Cluster setup for AKS in your local machine"
 description: "Handling multiple AKS clusters in your local machine can be challenging. This guide provides a step-by-step approach to manage multi-cluster setups effectively."
 date: 2023-05-17T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*u1yLlMvnpMeTOGgu"
 categories: ["Technology", "Cloud"]
 author: "Yuvaraj S"
 tags: ["kubernetes", "aks", "multi-cluster"]

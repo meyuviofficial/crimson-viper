@@ -1,8 +1,26 @@
 <div class="bg-body dark:bg-darkmode-body">
-  {{ $image := .Params.image }}
-  {{ if $image }}
-  {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
+  {{ $img := .Params.image }}
+  {{ if $img }}
+    {{ $isURL := (or (hasPrefix $img "http://") (hasPrefix $img "https://")) }}
+    {{ if $isURL }}
+      {{ partial "image" (dict
+        "Src" $img
+        "Context" .
+        "Alt" .Title
+        "Class" "mb-6 w-full rounded"
+        "IsRemote" true
+      ) }}
+    {{ else }}
+      {{ partial "image" (dict
+        "Src" $img
+        "Context" .
+        "Alt" .Title
+        "Class" "mb-6 w-full rounded"
+        "IsRemote" false
+      ) }}
+    {{ end }}
   {{ end }}
+
 
   <h4 class="mb-3">
     {{ $isExternal := .Params.external }}
@@ -36,17 +54,18 @@
   </ul>
   {{ end }}
 
-  <p class="mb-6">{{ .Summary | plainify }}</p>
+  <p class="mb-6">{{ .Summary | plainify | truncate 200 }}
 
   {{ if .Params.external }}
-  <a class="btn btn-outline-primary btn-sm"
+  <a class="text-primary dark:text-darkmode-primary hover:underline"
      href="{{ .Params.external_url }}"
      target="_blank" rel="noopener">
     {{ T "read_more" }}
   </a>
   {{ else }}
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+  <a class="text-primary dark:text-darkmode-primary hover:underline" href="{{ .RelPermalink }}">
     {{ T "read_more" }}
   </a>
   {{ end }}
+  </p>
 </div>
