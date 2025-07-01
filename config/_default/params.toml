@@ -38,7 +38,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = false
+enable = true
 primary_color = "#121212"
 include_sections = ["blog"]
 show_image = true
