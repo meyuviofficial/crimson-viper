@@ -3,17 +3,32 @@
     {
       "name": "twitter",
       "icon": "fab fa-twitter",
-      "link": "https://twitter.com/meyuviofficial"
+      "link": "https://twitter.com/meyuviofficial",
+      "color": "#1DA1F2"
     },
     {
       "name": "github",
       "icon": "fab fa-github",
-      "link": "https://www.github.com/meyuviofficial"
+      "link": "https://www.github.com/meyuviofficial",
+      "color": "#000000"
     },
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/in/meyuviofficial/"
+      "link": "https://www.linkedin.com/in/meyuviofficial/",
+      "color": "#0A66C2"
+    },
+    {
+      "name": "medium",
+      "icon": "fab fa-medium",
+      "link": "https://medium.com/@meyuviofficial",
+      "color": "#000000"
+    },
+    {
+      "name": "devto",
+      "icon": "fab fa-dev",
+      "link": "https://dev.to/meyuviofficial",
+      "color": "#0A0A0A"
     }
   ]
 }
