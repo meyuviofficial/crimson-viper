@@ -2,8 +2,7 @@
   <!-- Outer wrapper handles transform on hover -->
   <div class="transform transition-transform duration-300 group-hover:scale-105">
     <!-- Inner card handles background, shadow & rounding -->
-    <div
-      class="bg-light dark:bg-darkmode-light rounded-3xl aspect-square flex flex-col items-center justify-center
+    <div class="bg-light dark:bg-darkmode-light rounded-3xl aspect-square flex flex-col items-center justify-center
              transition-shadow duration-300 group-hover:shadow-2xl overflow-hidden p-4">
 
       <!-- Certification Logo -->
@@ -11,7 +10,7 @@
       <img
         src="{{ .logo }}"
         alt="{{ .name }}"
-        class="h-16 w-16 mb-3 filter grayscale group-hover:grayscale-0 transition-transform duration-200 group-hover:scale-110"
+        class="h-16 w-16 mt-2 py-2 filter grayscale group-hover:grayscale-0 transition-transform duration-200 group-hover:scale-110"
       />
       {{ else }}
       <!-- Default certificate icon if no logo provided -->
