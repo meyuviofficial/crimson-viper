@@ -1,28 +1,37 @@
 skills:
-  - name: Kubernetes
-    logo: https://cdn.simpleicons.org/kubernetes/326ce5
-  - name: GitHub Actions
-    logo: https://cdn.simpleicons.org/githubactions/2088FF
-  - name: Terraform
-    logo: https://cdn.simpleicons.org/terraform/844FBA
-  - name: Docker
-    logo: https://cdn.simpleicons.org/docker/2496ED
-  - name: Prometheus
-    logo: https://cdn.simpleicons.org/prometheus/E6522C
-  - name: ArgoCD
-    logo: https://cdn.simpleicons.org/argo/EF7B4D
-  - name: Go
-    logo: https://cdn.simpleicons.org/go/00ADD8
-  - name: Python
-    logo: https://cdn.simpleicons.org/python/3776AB
-  - name: Bash
-    logo: https://cdn.simpleicons.org/gnu/bash/4EAA25
-  - name: Helm
-    logo: https://cdn.simpleicons.org/helm/0F1689
   - name: Ansible
     logo: https://cdn.simpleicons.org/ansible/EE0000
+  - name: ArgoCD
+    logo: https://cdn.simpleicons.org/argo/EF7B4D
+  - name: AWS
+    logo: https://raw.githubusercontent.com/github/explore/main/topics/aws/aws.png
+  - name: Azure
+    logo: https://raw.githubusercontent.com/github/explore/main/topics/azure/azure.png
+  - name: Azure Functions
+    logo: https://www.vectorlogo.zone/logos/azurefunctions/azurefunctions-icon.svg
+  - name: Bash
+    logo: https://cdn.simpleicons.org/gnu/bash/4EAA25
+  - name: Crossplane
+    logo: https://raw.githubusercontent.com/crossplane/artwork/refs/heads/master/logo/icon.svg
+  - name: Docker
+    logo: https://cdn.simpleicons.org/docker/2496ED
   - name: FluxCD
     logo: https://cdn.simpleicons.org/flux/007ACC
+  - name: GitHub Actions
+    logo: https://cdn.simpleicons.org/githubactions/2088FF
+  - name: Go
+    logo: https://cdn.simpleicons.org/go/00ADD8
+  - name: Helm
+    logo: https://cdn.simpleicons.org/helm/0F1689
+  - name: Kubernetes
+    logo: https://cdn.simpleicons.org/kubernetes/326ce5
   - name: Packer
     logo: https://cdn.simpleicons.org/packer/0D0D0D
-
+  - name: PowerShell
+    logo: https://raw.githubusercontent.com/github/explore/main/topics/powershell/powershell.png
+  - name: Prometheus
+    logo: https://cdn.simpleicons.org/prometheus/E6522C
+  - name: Python
+    logo: https://cdn.simpleicons.org/python/3776AB
+  - name: Terraform
+    logo: https://cdn.simpleicons.org/terraform/844FBA
