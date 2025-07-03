@@ -34,7 +34,8 @@
   {{ end }}
   <!-- /Banner -->
 
-  {{ partial "experience.html" . }}
   {{ partial "skills.html" (dict "skills" site.Data.skills.skills) }}
+  {{ partial "certifications.html" . }}
+  {{ partial "experience.html" . }}
 
 {{ end }}

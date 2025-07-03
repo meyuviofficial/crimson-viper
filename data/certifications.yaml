@@ -1,0 +1,19 @@
+- name: "Azure Fundamentals"
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+  issuer: "Microsoft (AZ-900)"
+  date: "2019"
+
+- name: "Azure Developer Associate"
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+  issuer: "Microsoft (AZ-204)"
+  date: "2022"
+
+- name: "Certified Kubernetes Developer"
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+  issuer: "CNCF (CKD)"
+  date: "2023"
+
+- name: "Certified Kubernetes Administrator"
+  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+  issuer: "CNCF (CKA)"
+  date: "2024"

@@ -9,5 +9,5 @@ banner:
   button:
     enable: true
     label: "Know more"
-    link: "https://github.com/meyuviofficial"
+    link: "/crimson-viper/#skills"
 ---
