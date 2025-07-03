@@ -1,9 +1,11 @@
 <div class="group">
   <!-- Outer wrapper handles transform on hover -->
   <div class="transform transition-transform duration-300 group-hover:scale-105">
-    <!-- Inner card handles background, shadow & rounding -->
-    <div class="bg-light dark:bg-darkmode-light rounded-3xl aspect-square flex flex-col items-center justify-center
-             transition-shadow duration-300 group-hover:shadow-2xl overflow-hidden p-4">
+    <!-- Inner card with neon border and glow -->
+    <div
+      class="bg-light dark:bg-darkmode-light rounded-3xl aspect-square flex flex-col items-center justify-center
+             transition-all duration-300 border border-transparent group-hover:border-cyan-400
+             group-hover:shadow-[0_0_20px_4px_rgba(34,211,238,0.6)] p-4 overflow-hidden">
 
       <!-- Certification Logo -->
       {{ if .logo }}
@@ -14,7 +16,7 @@
       />
       {{ else }}
       <!-- Default certificate icon if no logo provided -->
-      <div class="h-16 w-16 mb-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center filter grayscale group-hover:grayscale-0 transition-all duration-200 group-hover:scale-110">
+      <div class="h-16 w-16 mt-2 py-2 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center filter grayscale group-hover:grayscale-0 transition-transform duration-200 group-hover:scale-110">
         <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
           <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
         </svg>
@@ -26,14 +28,14 @@
         {{ .name }}
       </p>
 
-      <!-- Optional: Issuer (smaller text) -->
+      <!-- Optional: Issuer -->
       {{ if .issuer }}
       <p class="text-xs text-gray-600 dark:text-gray-400 text-center mt-1">
         {{ .issuer }}
       </p>
       {{ end }}
 
-      <!-- Optional: Date (even smaller text) -->
+      <!-- Optional: Date -->
       {{ if .date }}
       <p class="text-xs text-gray-500 dark:text-gray-500 text-center mt-1">
         {{ .date }}

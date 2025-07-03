@@ -1,7 +1,8 @@
 <footer class="relative text-gray-300">
+  <!-- Top gradient strip -->
   <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500"></div>
 
-  <div class="w-full py-10 flex justify-center"> <!-- width + centering -->
+  <div class="w-full py-10 flex justify-center">
     <ul class="flex items-center space-x-4">
       {{ range site.Data.social.main }}
       <li>
@@ -12,8 +13,10 @@
           href="{{ .link | safeURL }}"
           class="flex items-center justify-center w-10 h-10 rounded-full
                  bg-gray-200 dark:bg-gray-700
-                 filter grayscale transition-transform transition-filter duration-300 ease-in-out
-                 hover:grayscale-0 hover:scale-110"
+                 border border-transparent
+                 hover:border-cyan-400 hover:shadow-[0_0_12px_3px_rgba(34,211,238,0.5)]
+                 filter grayscale hover:grayscale-0
+                 transition-all duration-300 ease-in-out transform hover:scale-110"
           style="--hover-icon-color: {{ .color }};">
           <i class="{{ .icon }} text-xl text-gray-600 dark:text-gray-300
                      transition-colors duration-300 ease-in-out
