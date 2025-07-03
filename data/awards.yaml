@@ -1,0 +1,6 @@
+- name: "Spotlight Award by CIO"
+  logo: "https://cdn.simpleicons.org/shell"
+  image: "/images/spotlight_award.jpg"
+  organization: "Shell India Markets Pvt Ltd"
+  date: "Q2 2023"
+  description: "Recognized for outstanding contributions to the Kubernetes as a Service platform, enhancing operational efficiency and service delivery."
