@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "https://meyuviofficial.github.io/crimson-viper/"
+baseURL = "https://www.meyuviofficial.in/"
 # Title of your website (required).
 title = "Yuvaraj S"
 # Your theme name
